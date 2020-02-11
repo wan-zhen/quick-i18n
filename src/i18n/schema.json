@@ -10,7 +10,7 @@
                 "$source": "argv",
                 "index": 0
             },
-            "x-prompt": "R U sure?"
+            "x-prompt": "Enter i18n Key?"
         }
     },
     "required": [
