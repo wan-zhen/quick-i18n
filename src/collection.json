@@ -1,9 +1,10 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "quick-i18n": {
+    "i18n": {
       "description": "A blank schematic.",
-      "factory": "./quick-i18n/index#quickI18n"
+      "factory": "./i18n/index#i18n",
+      "schema": "./i18n/schema.json"
     }
   }
 }

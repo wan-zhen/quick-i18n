@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "quick-i18n",
+    "type": "object",
+    "description": "quick generate i18n",
+    "properties": {
+        "key": {
+            "type": "string",
+            "$default": {
+                "$source": "argv",
+                "index": 0
+            },
+            "x-prompt": "R U sure?"
+        }
+    },
+    "required": [
+        "key"
+    ]
+}
