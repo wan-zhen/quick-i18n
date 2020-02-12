@@ -24,9 +24,9 @@ export function i18n(_options: Schema): Rule {
     enText[type][key] = en;
     cnText[type][key] = cn;
     viText[type][key] = vi;
-    tree.overwrite('./src/assets/i18n/en-US.json', JSON.stringify(enText, null, "\t"));
-    tree.overwrite('./src/assets/i18n/zh-CN.json', JSON.stringify(cnText, null, "\t"));
-    tree.overwrite('./src/assets/i18n/vi-VN.json', JSON.stringify(viText, null, "\t"));
+    tree.overwrite('./src/assets/i18n/en-US.json', JSON.stringify(enText, null, 2));
+    tree.overwrite('./src/assets/i18n/zh-CN.json', JSON.stringify(cnText, null, 2));
+    tree.overwrite('./src/assets/i18n/vi-VN.json', JSON.stringify(viText, null, 2));
 
     return tree;
   };
