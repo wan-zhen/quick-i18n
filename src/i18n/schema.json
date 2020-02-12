@@ -10,10 +10,37 @@
                 "$source": "argv",
                 "index": 0
             },
-            "x-prompt": "Enter i18n Key?"
+            "x-prompt": "Enter i18n Set (ex: Common.Tip)"
+        },
+        "cn": {
+            "type": "string",
+            "$default": {
+                "$source": "argv",
+                "index": 1
+            },
+            "x-prompt": "Enter zh-CN value"
+        },
+        "en": {
+            "type": "string",
+            "$default": {
+                "$source": "argv",
+                "index": 2
+            },
+            "x-prompt": "Enter en-US value"
+        },
+        "vi": {
+            "type": "string",
+            "$default": {
+                "$source": "argv",
+                "index": 3
+            },
+            "x-prompt": "Enter vi-VN value"
         }
     },
     "required": [
-        "key"
+        "key",
+        "cn",
+        "en",
+        "vi"
     ]
 }
