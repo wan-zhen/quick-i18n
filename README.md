@@ -15,3 +15,5 @@ in command line
 ```
 ng g quick-i18n:i18n
 ```
+# npm Link
+[npm](https://www.npmjs.com/package/quick-i18n) 
